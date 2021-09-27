@@ -180,6 +180,13 @@ public class RegisterPage implements ActionListener {
                     
                     warningMessage.setText("");
                     successMessage.setText("Registration Successful!");
+
+                    jFieldFirstname.setText("");
+                    jFieldLastname.setText("");
+                    jFieldEmail.setText("");
+                    jFieldUsername.setText("");
+                    jFieldPassword.setText("");
+
                     }
                 
                 else{

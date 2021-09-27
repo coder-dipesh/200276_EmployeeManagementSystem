@@ -15,7 +15,7 @@ class SearchEmployee implements ActionListener{
     Color warning = new Color(218,0,55);
 
     SearchEmployee(){
-        mainFrame =new JFrame("Employee Management System - Search Employee Data");
+        mainFrame =new JFrame("Employee Management System - View Search Employee Data");
         mainFrame.setBackground(Color.green);
         mainFrame.setResizable(false);
         mainFrame.setLayout(null);

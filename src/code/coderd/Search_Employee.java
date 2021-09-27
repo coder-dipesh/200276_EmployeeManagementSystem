@@ -13,7 +13,7 @@ class Search_Employee implements ActionListener{
     Color warning = new Color(218,0,55);
 
     Search_Employee(){
-        mainFrame =new JFrame("Employee Management System - Search Employee");
+        mainFrame =new JFrame("Employee Management System - Update Search Employee");
         mainFrame.setBackground(Color.green);
         mainFrame.setResizable(false);
         mainFrame.setLayout(null);
@@ -62,8 +62,8 @@ class Search_Employee implements ActionListener{
 
     public void actionPerformed(ActionEvent ae){
         if(ae.getSource()== btnClose){
+            Dashboard d = new Dashboard();
             mainFrame.setVisible(false);
-            Dashboard d=new Dashboard();
         }
         if(ae.getSource()== btnSearch){
             new Update_Employee(tfID.getText());
