@@ -11,8 +11,6 @@ class SplashScreen implements ActionListener{
     Color darkBlue = new Color(104,145,200);
 
     SplashScreen(){
- 
-        
         mainFrame =new JFrame("Employee Management System -  Splash Screen");
         mainFrame.setResizable(false);
         mainFrame.setLayout(null);
